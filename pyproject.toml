@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "csvclean-companion"
+version = "0.1.0"
+description = "A friendly, local-first CLI that cleans ugly CSVs for spreadsheet-shy users."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Asdale Dynamics, LLC" }]
+keywords = ["csv", "clean", "spreadsheet", "data", "cli", "local-first"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Office/Business :: Financial :: Spreadsheet",
+    "Topic :: Utilities",
+]
+
+# Zero runtime dependencies: standard library only.
+[project.urls]
+Homepage = "https://dylanasdale.github.io"
+
+[project.scripts]
+csvclean = "csvclean.cli:main"
+
+[tool.setuptools]
+packages = ["csvclean"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

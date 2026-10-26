@@ -1,0 +1,8 @@
+ Order ID ,Customer Name,Email,Join Date, Amount Due , City
+1001  , Dana Whitfield ,dana.w@example.com,Jan 5 2025,$120.00,
+1002, Marcus Lee ,marcus@example.com,03/14/2025,$250.50,
+1003, Priya Natarajan,priya@example.com,2025-06-01,$80.00
+1001, Dana Whitfield ,dana.w@example.com,Jan 5 2025,$120.00,
+1004,在中国,"big.brackets@example.com",4/22/2024,$99.99,
+    ,
+1010, sam moves around,sam@example.com,4/22/2024,$99.99,
